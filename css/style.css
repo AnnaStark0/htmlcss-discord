@@ -117,6 +117,25 @@ nav li a {
     margin-left: 10px;
 }
 
+/*SECTION*/
+.sezione1 {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.text-sez {
+    line-height: 1.6;
+}
+
+section h3 {
+    font-size: 40px;
+}
+
+section p {
+    font-size: 18px;
+}
+
 
 
 
