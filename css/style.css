@@ -4,22 +4,68 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     height: 80px;
     line-height: 80px;
-
     background-color: aquamarine;
+    ;
 }
 
 .row {
     width: 80%;
-    background-color: blueviolet;
+    height: 80px;
     margin: 0 auto;
+    text-align: center;
 }
 
-#logo {
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+.logo{
+float: left;
+width: 25%;
+vertical-align: middle;
 }
+
+.logo img {
+    vertical-align: middle;
+}
+
+nav {
+    float: left;
+    width: 50%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+#login {
+    float: right;   
+    
+}
+
+nav li a {
+    color: white;
+    margin: 0 15px; 
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
 
 
 
