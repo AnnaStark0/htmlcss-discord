@@ -136,9 +136,42 @@ section p {
     font-size: 18px;
 }
 
+.center {
+    text-align: center;
+}
 
+section h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
 
+.btn-blue {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
 
+.sez4 {
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 600px;
+    background-color: gray;
+}
+
+.foot {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
