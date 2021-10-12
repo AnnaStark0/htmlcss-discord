@@ -8,6 +8,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 /*HEADER*/
 header {
@@ -34,9 +38,24 @@ header {
     display: table;
   }
 
+.right {
+    float: right;
+}
+
+.left {
+    float:left;
+}
+
+.sx {
+    width: 50%;
+}
+.dx {
+    width: 50%;
+}
+
 .logo{
 float: left;
-vertical-align: middle;
+/*vertical-align: middle;*/
 }
 
 .logo img {
@@ -44,7 +63,7 @@ vertical-align: middle;
 }
 
 nav {
-    float: left;
+    f
     margin-left: 200px;
 }
 
@@ -56,8 +75,8 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-#login {
-    float: right;   
+.login {
+      float: right;
 }
 
 #login:hover {
@@ -119,25 +138,37 @@ nav li a {
 
 /*SECTION*/
 .sezione1 {
-    width: 80%;
-    margin: 0 auto;
     border-bottom: 1px solid black;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .text-sez {
-    line-height: 1.6;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+ 
 }
 
 section h3 {
     font-size: 40px;
+    margin-bottom: 20px;
+    width: 80%;
 }
 
 section p {
     font-size: 18px;
+    width: 80%;
 }
 
 .center {
     text-align: center;
+    margin: 0 auto;
+}
+
+.sez4text {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 section h4 {
@@ -160,12 +191,23 @@ section h4 {
 .sez4 {
     text-align: center;
 }
+.fa-star {
+    font-size: small;
+    vertical-align: text-top;
+}
+.pink {
+    color: rgb(238, 79, 217);
+}
+
+.blu {
+    color: dodgerblue;
+}
 
 /*FOOTER*/
 
 footer {
     height: 600px;
-    background-color: gray;
+    background-color:#1f1f20;
 }
 
 .foot {
@@ -173,7 +215,43 @@ footer {
     margin: 0 auto;
 }
 
+.footext {
+    font-weight: bold;
+    padding-top: 90px;
+    padding-right: 135px;
+    color: rgb(107, 50, 240);
 
+}
+
+footer h4 {
+    font-size: 30px;
+}
+
+footer ul li {
+    line-height: 2.0;
+    font-size: small;
+}
+
+footer hr {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#Language {
+    background-color: #1f1f20;
+    color: white;
+}
 
 
 /*DEBUG*/
